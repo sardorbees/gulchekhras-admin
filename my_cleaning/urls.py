@@ -37,7 +37,7 @@ def home(request):
     return HttpResponse("Главная страница сайта. Админка отключена или включена.")
 
 def home(request):
-    return HttpResponse("Xush Kelibsiz Solar-Energy Admin")
+    return HttpResponse("Xush Kelibsiz Gulchekhra Collection Admin")
 
 class AdminAccessControlMiddleware:
     ALLOWED_IPS = ['127.0.0.1']  # разрешённые IP для доступа к админке
