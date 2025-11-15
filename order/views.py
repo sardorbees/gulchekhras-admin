@@ -6,10 +6,8 @@ from .models import Order, OrderItem
 from .serializers import OrderSerializer
 
 # 🔑 данные твоего Telegram-бота
-BOT_TOKEN = "8013655006:AAGBb-a4EIlgLo9qA4NObowsesvOZ_hQkQI"
-CHAT_ID = "@gulchekras"  # например: 123456789
-# TELEGRAM_BOT_TOKEN = "8013655006:AAGBb-a4EIlgLo9qA4NObowsesvOZ_hQkQI"
-# TELEGRAM_CHAT_ID = "1756108441"
+BOT_TOKEN = "8455589037:AAEB271gLar71WT025uJKUPuZCcQIvfUD0k"
+CHAT_ID = "@maftunmebel"
 
 class OrderCreateView(generics.CreateAPIView):
     queryset = Order.objects.all()

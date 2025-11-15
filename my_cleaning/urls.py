@@ -72,7 +72,7 @@ urlpatterns = [
     path("api/ckeditor5/", include('django_ckeditor_5.urls')),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    # path("api/product/", include('product.urls')),
+    path("api/product/", include('product.urls')),
     path('i18n/', include('django.conf.urls.i18n')),
     path('api/application', include('application.urls')),
     path("api/logo/", include('logo.urls')),

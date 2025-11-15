@@ -10,8 +10,8 @@ from .models import Application
 from .serializers import ApplicationSerializer
 
 # 🔹 Токен и чат ID Telegram
-TELEGRAM_TOKEN = '8013655006:AAGBb-a4EIlgLo9qA4NObowsesvOZ_hQkQI'
-TELEGRAM_CHAT_ID = '1756108441'
+TELEGRAM_TOKEN = '8455589037:AAEB271gLar71WT025uJKUPuZCcQIvfUD0k'
+TELEGRAM_CHAT_ID = '@maftunmebel'
 
 
 class ApplicationCreateView(generics.CreateAPIView):
